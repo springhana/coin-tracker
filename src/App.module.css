@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f0f8ff;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6495ed;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+.contain {
+  position: relative;
+  display: flexs;
+  justify-content: center;
+  align-content: center;
+  margin-top: 100px;
+  border: 5px solid #e6e6fa;
+  padding: 50px;
+  transition: 0.5s;
+}
+.contain:hover {
+  box-shadow: 1px 1px 1px #000;
+}
+.change {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.change input {
+  height: 30px;
+  width: 490px;
+  text-align: center;
+  margin-right: 30px;
+  border: 1px solid #000;
+  background: none;
+  transition: 0.5s;
+  margin-bottom: 20px;
+}
+.change input:hover {
+  box-shadow: 5px 5px 5px #000;
+}
+.USDPrice {
+  background: none;
+  font-weight: bold;
+}
+.select {
+  text-align: center;
+  background: none;
+  border: 1px solid #6495ed;
+  transition: 0.2s;
+}
+.select:hover {
+  box-shadow: 5px 5px 5px #000;
+}
+.BTC {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 22px;
+}
+.BTC_price {
+  color: #6495ed;
+}
